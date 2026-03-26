@@ -1,0 +1,146 @@
+<resources>
+
+
+    <string name="action_settings">About</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="app_name">MKryptos</string>
+    <string name="app_version">Version 0.0.1</string>
+    <string name="app_resumen">A tool encrypts your message.</string>
+    <string name="app_company">Moun Defense and Security</string>
+    <string name="app_info">Develop Apps and Big Data</string>
+    <string name="app_developer">Developer: ajtg</string>
+    <string name="app_email">Email: ajtg.developer@gmail.com</string>
+    <string name="title_activity_your_message">Messages</string>
+
+    <string name="menuConsole1">Enter your message, please</string>
+    <string name="menuConsole2">Enter your password, please</string>
+    <string name="menuConsole3">Activ cipher</string>
+    <string name="menuConsole4">Activ decoding</string>
+    <string name="menuConsole5">Select your cipher, please</string>
+    <string name="menuConsole6">Enter your information, please</string>
+    <string name="menuConsole7">Enter your Id key, please</string>
+
+    <string name="menuOptionCopy">Copy</string>
+    <string name="menuOptionCopyKey">Copy your key</string>
+    <string name="menuOptionPaste">Paste</string>
+    <string name="menuOptionClean">Clean</string>
+    <string name="menuOptionSend">Send</string>
+    <string name="menuOptionInformation">Information</string>
+    <string name="menuOptionExample">Example</string>
+    <string name="menuOptionAbout">About</string>
+    <string name="menuOptionLoadKey">Load your key</string>
+    <string name="menuOptionSave">Save your key</string>
+    <string name="menuOptionLoadPhoto">Load photo</string>
+    <string name="menuOptionEncryption">Encryption</string>
+    <string name="menuOptionSelectKey">Select your key</string>
+    <string name="menuOptionName">Your ID already.</string>
+    <string name="menuOptioDeleteKey">Delete key</string>
+
+    <string name="mainmenu1">Your message</string>
+    <string name="mainmenu2">Signature</string>
+    <string name="mainmenu3">Your photos</string>
+    <string name="mainmenu4">Your videos</string>
+    <string name="mainmenu5">Your voice</string>
+    <string name="mainmenu6">Your keys</string>
+    <string name="mainmenu7">Generator keys</string>
+    <string name="mainmenu8">Pseudo random generator</string>
+
+    <string name="KeyMessage1">Generate key ...</string>
+    <string name="KeyMessage2">Key generated</string>
+    <string name="KeyMessage3">Key failed</string>
+
+    <string name="exampleText">Hopefully some of the basics steps like creating new projects, adding new files and so on are already familiar to you from personal experience or from watching other Absolute Beginners series on Channel9.</string>
+    <string name="exampleKey">Channel9High</string>
+
+    <string-array name="array_algorithm">
+        <item>Select your cipher</item>
+        <item>DES</item>
+        <item>TripleDES</item>
+        <item>AES</item>
+        <item>BlowFish</item>
+        <item>RC4</item>
+    </string-array>
+
+    <string-array name="size_rsa">
+        <item>Select your size</item>
+        <item>512</item>
+        <item>768</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+        <item>4096</item>
+    </string-array>
+
+    <string-array name="size_ec">
+        <item>Select your size</item>
+        <item>256</item>
+        <item>384</item>
+        <item>512</item>
+    </string-array>
+
+    <string-array name="size_aes">
+        <item>Select your size</item>
+        <item>128</item>
+        <item>192</item>
+        <item>256</item>
+        <item>512</item>
+    </string-array>
+
+    <string-array name="array_keys">
+        <item>Select your cipher</item>
+        <item>DES</item>
+        <item>TripleDES</item>
+        <item>BlowFish</item>
+        <item>RC4</item>
+        <item>AES 128</item>
+        <item>AES 192</item>
+        <item>AES 256</item>
+        <item>AES 512</item>
+        <item>RSA 1024</item>
+        <item>RSA 2048</item>
+        <item>RSA 3072</item>
+        <item>RSA 4096</item>
+        <item>DSA</item>
+        <item>EC 224</item>
+        <item>EC 256</item>
+        <item>EC 384</item>
+        <item>EC 512</item>
+        <item>HMACMD5</item>
+        <item>HMACSHA1</item>
+        <item>HMACSHA256</item>
+        <item>HMACSHA384</item>
+        <item>HMACSHA512</item>
+    </string-array>
+
+    <string-array name="array_randoms">
+        <item>Select your randoms</item>
+        <item>El algoritmo del medio al cuadrado</item>
+        <item>GPSS/360</item>
+        <item>AES</item>
+        <item>BlowFish</item>
+        <item>RC4</item>
+        <item>RSA</item>
+        <item>DSA</item>
+    </string-array>
+
+    <string-array name="array_signature">
+        <item>Select your Signature</item>
+        <item>SHA512WithRSA</item>
+        <item>SHA384WithRSA</item>
+        <item>SHA256WithRSA</item>
+    </string-array>
+    <string name="title_activity_your_files">Your files</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_voice">Voice</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_photo">Photos</string>
+    <string name="title_activity_numbers">Pseudo random generator</string>
+    <string name="title_activity_keys">Generator keys</string>
+    <string name="title_activity_your_keys">Database Keys</string>
+    <string name="title_activity_show_information">Your Key</string>
+    <string name="title_activity_your_signature">Your Signature</string>
+
+
+</resources>

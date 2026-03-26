@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              tools:context="com.example.quoson.mkryptos.NumbersActivity"
+              android:orientation="vertical">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/array_randoms"
+        android:id="@+id/select_random"
+        android:layout_marginBottom="10dip"
+        android:hint="@string/menuConsole2"
+        android:drawableLeft="@drawable/icon_key"
+        android:background="@drawable/border4"
+        android:minHeight="45dip"
+        android:padding="10dip"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:id="@+id/buttonCipher"
+        android:src="@drawable/icon_close_off"
+        android:layout_weight="1"
+        android:background="@drawable/border_off"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="35dip"
+        />
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="left|top"
+        android:id="@+id/resultText"
+        android:background="@drawable/border3"
+        android:shadowColor="#ff71ff7f"
+        android:padding="10dip"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:ellipsize="middle"
+        android:layout_marginBottom="10dip"
+        android:scrollbars="vertical"
+        android:gravity="top|left"
+        android:textSize="20dip"
+        android:minHeight="100dip"
+        android:focusable="false"
+        android:cursorVisible="true"/>
+</ScrollView>
+
+
+</LinearLayout>
